@@ -1,0 +1,60 @@
+#GlobalHeader{
+    background-color: #fff;
+}
+
+/*svg style*/
+path[data-color=red]{
+    fill: rgb(254, 225, 205);
+    stroke: #FFFFFF;
+}
+path[data-color=orange]{
+    fill: rgb(255, 237, 189);
+    stroke: #FFFFFF;
+}
+path[data-color=green]{
+    fill: rgb(215, 241, 185);
+    stroke: #FFFFFF;
+}
+path[data-color=blue]{
+    fill: rgb(193, 227, 255);
+    stroke: #FFFFFF;
+}
+
+
+/*svg style*/
+text {
+    font-family: NanumGothic;
+    font-size: 5px;
+    pointer-events: none;
+    fill: rgb(100,100,100);
+}
+
+path {
+    fill: #B9B9B9;
+    stroke: #FFFFFF;
+    transition: 0.5s;
+}
+path.region {
+    cursor: pointer;
+
+}
+
+
+/*loading style*/
+#loading{
+    width: 100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 100000;
+}
+#loading > object{
+
+    position: relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+
+}
